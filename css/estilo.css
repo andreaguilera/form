@@ -1,0 +1,85 @@
+main {
+    background-color: #1c16c9;
+    color: white;
+}
+
+#titulo-sub {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    text-shadow: 2px 2px 2px #ff0084;
+    font-family: 'Bitter', serif;
+}
+
+#survey-form {
+    padding: 10px;
+    margin: auto;
+    border-radius: 5px;
+
+    background-color: #ff0084;
+    width: 60%;
+    -webkit-box-shadow: 10px -10px 36px 5px rgba(0, 0, 0, 0.42);
+    -moz-box-shadow: 10px -10px 36px 5px rgba(0, 0, 0, 0.42);
+    box-shadow: 10px -10px 36px 5px rgba(0, 0, 0, 0.42);
+
+}
+
+.row {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#group-radio {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#checkbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#botoes-radio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+
+#male {
+    padding: 5px;
+
+}
+
+#female {
+    padding: 5px;
+}
+
+#div-name {
+    display: flex;
+    flex-direction: column;
+}
+
+#name {
+    border-radius: 5px;
+}
+
+#email {
+    border-radius: 5px;
+}
+
+#number {
+    border-radius: 5px;
+}
+
+#dropdown {
+    border-radius: 5px;
+}

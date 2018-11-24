@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/estilo.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+
+</head>
+
+<body>
+    <main>
+        
+            <div class="row" id="titulo-sub">
+                <h1 id="title">Form</h1>
+                <p id="description">A simple form just to fix the learned content.</p>
+            </div>
+            <form id="survey-form">
+                <div class="row" id="divname">
+                    <label for="name" id="name-label">Name
+                        <input title="name" type="name" placeholder="Name" id="name" required>
+                    </label>
+                </div>
+                <div class="row" id="divemail">
+                    <label for="email" id="email-label">Email
+                        <input title="email" type="email" placeholder="email" id="email" required>
+                    </label>
+                </div>
+                <div class="row" id="divnumber">
+                    <label for="numer" id="number-label">Number
+                        <input type="number" title="number" placeholder="Num" min="1" max="10" id="number">
+                    </label>
+                </div>
+                <div class="row" id="divstatus">
+                    <label for="status">Status
+                        <select id="dropdown">
+                            <option disabled value selected="selected">Select</option>
+                            <option value="student">Student</option>
+                            <option value="student">Junior</option>
+                            <option value="student">Pleno</option>
+                            <option value="student">Sênior</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="row" id="group-radio">
+                    <div id="titulo-radio">
+                        <p>What is your gender?</p>
+                    </div>
+                    <div id="botoes-radio">
+                        <div id="male">
+                            <label for="male">Male
+                                <input id="male" type="radio" name="gender" value="male">
+                            </label>
+                        </div>
+                        <div id="female">
+                            <label for="female">Female
+                                <input id="female" type="radio" name="gender" value="female">
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" id="checkbox">
+                    <div id="titulo-checkbox">
+                        <p>Choice your favorite languages</p>
+                    </div>
+                    <div id="language-checkbox">
+                        <div id="checkbox-java">
+                            <label for="java">Java</label>
+                            <input type="checkbox" value="java" name="java" title="java">
+                        </div>
+                        <div id="checkbox-html">
+                            <label for="html">HTML</label>
+                            <input type="checkbox" value="html" name="html" title="html">
+                        </div>
+                        <div id="checkbox-javascript">
+                            <label for="javascript">Javascript</label>
+                            <input type="checkbox" value="javascript" name="javascript" title="javascript">
+                        </div>
+                        <div id="checkbox-c">
+                            <label for="c">C</label>
+                            <input type="checkbox" value="c" name="c" title="c">
+                        </div>
+                    </div>
+                </div>
+                <div class="row" id="text-area">
+                    <textarea id="text" placeholder="Give Us your suggestions"></textarea>
+                </div>
+                <div class="row" id="sub-button">
+                    <label for="submit" id="submit-label">
+                        <input type="submit" id="submit" name="submit" value="submit">
+                    </label>
+                </div>
+            </form>
+        
+    </main>
+</body>
+
+</html>
